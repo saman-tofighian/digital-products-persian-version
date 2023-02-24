@@ -1,0 +1,214 @@
+@media screen and (max-width: 575px) {
+  header {
+    height: 60px;
+  }
+  header > nav > figure > h2 {
+    font-size: 1.3rem;
+  }
+  #lotto article > h1 {
+    font-size: 1.5rem;
+  }
+  #lotto article > p {
+    font-size: 0.9rem;
+  }
+  #lotto .btnArticle {
+    justify-content: center;
+  }
+  #projects > .row > div > h3:nth-of-type(1) {
+    font-size: 1.6rem;
+  }
+  #projects > .row > div > h3:nth-of-type(2) {
+    font-size: 1.4rem;
+  }
+  #about .row > article > section > div {
+    padding: 0 20px !important;
+  }
+  #about .row > article > section > div > p {
+    text-align: justify;
+  }
+  #about .row > article > section > div > h5 {
+    text-align: left;
+    margin-bottom: 6px !important;
+  }
+  #about .row > figure > img {
+    height: 400px;
+  }
+  #blog .contentBlog {
+    margin-bottom: 20px !important;
+  }
+  #blog > .row > article {
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 576px) {
+  header {
+    height: 60px;
+  }
+  header > nav > figure > h2 {
+    font-size: 1.3rem;
+  }
+  #lotto article > h1 {
+    font-size: 1.5rem;
+  }
+  #lotto article > p {
+    font-size: 0.9rem;
+  }
+  #lotto .btnArticle {
+    justify-content: center;
+  }
+  #projects > .row > div > h3:nth-of-type(1) {
+    font-size: 1.6rem;
+  }
+  #projects > .row > div > h3:nth-of-type(2) {
+    font-size: 1.4rem;
+  }
+  #about .row > article > section > div {
+    padding: 0 20px !important;
+  }
+  #about .row > article > section > div > p {
+    text-align: justify;
+  }
+  #about .row > article > section > div > h5 {
+    text-align: left;
+    margin-bottom: 6px !important;
+  }
+  #about .row > figure > img {
+    height: 400px;
+  }
+  #blog .contentBlog {
+    margin-bottom: 20px !important;
+  }
+  #blog > .row > article {
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    height: 80px;
+  }
+  #lotto article > h1 {
+    font-size: 2.2rem;
+  }
+  #lotto article > p {
+    font-size: 1rem;
+  }
+  #lotto figure {
+    margin: 0 auto !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .row {
+    width: 100%;
+    padding: 0 11% !important;
+  }
+  header > nav > figure > h2 {
+    font-size: 2rem;
+  }
+  #lotto article {
+    padding-top: 1.3rem !important;
+  }
+  #lotto article > h1 {
+    font-size: 3rem;
+  }
+  #lotto article > p {
+    font-size: 1.1rem;
+  }
+  #lotto .btnArticle {
+    justify-content: flex-start;
+  }
+  #lotto figure {
+    margin: 0 !important;
+  }
+  #projects > .row > div > h3:nth-of-type(1) {
+    font-size: 2rem;
+  }
+  #projects > .row > div > h3:nth-of-type(2) {
+    font-size: 1.3rem;
+  }
+  #service .row {
+    gap: 3rem !important;
+  }
+  #service .row article {
+    width: 41.66666667%;
+  }
+  #about .row > article > section > div {
+    padding: 0 !important;
+  }
+  #about .row > article > section > div > h5 {
+    text-align: left;
+    margin-bottom: 0 !important;
+  }
+  #team > .row {
+    gap: 3rem !important;
+  }
+  #blog > .row {
+    gap: 3rem !important;
+    justify-content: space-between !important;
+  }
+  #blog > .row > article {
+    width: 47% !important;
+  }
+  #blog > .row > article:nth-of-type(2) {
+    order: 3;
+    margin: 0 auto !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #projects > .row > div > h3:nth-of-type(1) {
+    font-size: 2.5rem;
+  }
+  #projects > .row > div > h3:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+  #service .row {
+    gap: 0 !important;
+  }
+  #service .row article {
+    width: 22%;
+  }
+  #team > .row {
+    gap: 0 !important;
+  }
+  #team > .row > article {
+    width: 22.3333%;
+  }
+  #blog .contentBlog {
+    margin-bottom: 100px !important;
+  }
+  #blog > .row > article {
+    width: 29% !important;
+    transform: scale(0.9);
+  }
+  #blog > .row > article:nth-of-type(2) {
+    order: 0;
+    margin-top: -70px !important;
+    width: 33% !important;
+    transform: scale(1);
+  }
+}
+@media screen and (min-width: 1400px) {
+  #about .row > article {
+    text-align: left !important;
+    width: 41.66666667%;
+  }
+  #about .row > article > section > div {
+    padding: 0 !important;
+  }
+  #about .row > figure {
+    width: 41.66666667%;
+  }
+  #about .row > figure > img {
+    height: 90% !important;
+  }
+  #subscribe > .row {
+    justify-content: space-between !important;
+    gap: 0 !important;
+  }
+  #subscribe > .row > article {
+    width: 50%;
+    text-align: left !important;
+  }
+  #subscribe > .row > form {
+    width: 41.66666667%;
+  }
+}/*# sourceMappingURL=local.css.map */
